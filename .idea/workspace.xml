@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84502049-201d-4745-869a-033c6d600997" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/storage/logs/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/server/storage/logs/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -244,6 +245,7 @@
               <item name="socialapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="socialapp" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="socialapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="socialapp" type="462c0819:PsiDirectoryNode" />
@@ -298,6 +300,8 @@
 >>>>>>> added /.idea to .gitignore
 =======
 >>>>>>> 98e092910524207f4815b04668bc0c842df4a102
+=======
+>>>>>>> c356140f02df37227027ab91fee89579468ecf10
           </expand>
           <select />
         </subPane>
@@ -343,22 +347,29 @@
 =======
       <workItem from="1541450872335" duration="1520000" />
       <workItem from="1541453596791" duration="125000" />
+<<<<<<< HEAD
       <workItem from="1541454267810" duration="126000" />
 >>>>>>> 98e092910524207f4815b04668bc0c842df4a102
+=======
+      <workItem from="1541454267810" duration="581000" />
+>>>>>>> c356140f02df37227027ab91fee89579468ecf10
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< 10e5ee1aa16d94f4d31c108fea5c99878ff2ad23
     <option name="totallyTimeSpent" value="1203000" />
 =======
     <option name="totallyTimeSpent" value="1771000" />
 >>>>>>> 98e092910524207f4815b04668bc0c842df4a102
+=======
+    <option name="totallyTimeSpent" value="2226000" />
+>>>>>>> c356140f02df37227027ab91fee89579468ecf10
   </component>
   <component name="ToolWindowManager">
     <frame x="316" y="23" width="1440" height="811" extended-state="0" />
-    <editor active="true" />
     <layout>
 <<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
@@ -665,7 +676,7 @@
     <entry file="file://$PROJECT_DIR$/server/storage/logs/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
