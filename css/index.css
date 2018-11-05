@@ -1,0 +1,18 @@
+body {
+}
+
+.post-title-block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.post-img {
+  width: 10%;
+}
+.date-title {
+  width: 85%;
+}
+
+.post-title {
+  text-transform: capitalize;
+}
