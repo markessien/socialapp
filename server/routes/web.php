@@ -14,44 +14,36 @@
 //Landing Page (Home Page)
 Route::get('/', 'HomepageController@index')->name('homepage');
 
-//User Profile
-Route::get('/User-profile', function(){
-	return view();
-});
 
-//Login
-Route::post('/login', function(){
-
-});
-
-
-//Sign Up
-Route::post('/sign-up', function(){
-
-});
+//*****POST ROUTE DETAILS*******//
 
 //Post Comment
 Route::post('/post-comment', function(){
-
+	return view('/post-comment');
 });
 
 //Upload Files
 Route::post('/Upload', function(){
+	return view('/upload');
+});
 
+//*****USER ROUTE DETAILS*****//
+
+//Delete User Account
+Route::delete('/delete-user-account', function(){
+	return view('/delete-user-account');
 });
 
 //Update User Profile
 Route::put('/update-user-profile', function(){
-
+	return view('/update-user-profile');
 });
 
-//Reset User Password
-Route::put('/reset-user-password', function(){
-
+//User Profile
+Route::get('/User-profile', function(){
+	return view('/user-profile');
 });
 
-//Delete User Account
-Route::delete('/delete-user-account', function(){
-
-});
+//Controls Login, Register, Reset password user
+Route::auth();
 
