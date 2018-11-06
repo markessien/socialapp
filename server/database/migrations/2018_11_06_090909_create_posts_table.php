@@ -18,7 +18,7 @@ class CreatePostsTable extends Migration
             $table->unsignedInteger('user_id');        // the member that is being followed by the current user
             $table->foreign('user_id')->references('id')->on('users');
             $table->string('category')->default("general");
-            $table->text('content');
+            $table->text('body');
             $table->boolean('sharing_permission')->default(true);
             $table->timestamps();
         });
