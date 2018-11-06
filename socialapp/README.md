@@ -1,2 +1,0 @@
-# socialapp
-A social app
