@@ -11,58 +11,6 @@
 </head>
 
 <body class="blog">
-  <main class="blog__content">
-    <section class="blog__subscribe jumbotron mt-3 text-center mx-auto">
-      <p class="close-btn p-1 mb-4">&times;</p>
-      <p class="lead">
-        Welcome to my blog. This text here will be some intro text
-        that kind of gives context to what I write and so on. People diving in will have a clearer idea
-        of the particular person they are meeting.
-      </p>
-      <form class="form-inline mx-auto d-block">
-        <input type="text" name="email-address" class="form-control email-address" />
-        <button type="submit" class="btn btn-secondary btn-lg mt-2 mt-sm-0">Subscribe</button>
-      </form>
-    </section>
-    <section class="blog-posts mt-3">
-      <article class="blog-posts__item container m-2">
-        <div class="row">
-          <div class="col-4 blog-posts__item-photo mx-auto text-center">
-            <img src="img/first-post.png" alt="first post" class="img-fluid" />
-          </div>
-          <div class="col-8 blog-posts__item-meta">
-            <p class="lead text-warning">
-              JAN 9, 2017
-            </p>
-            <h2>The Moment of Awe</h2>
-          </div>
-        </div>
-        <p class="blog-posts__item-text p-2">
-          The reasoning behind one of the biggest disasters of the last century. It
-          helps you curate ideas and includes everything you need to develop and publish your thoughts to the world.
-        </p>
-      </article>
-      <article class="blog-posts__item container m-2">
-        <div class="row">
-          <div class="col-4 blog-posts__item-photo mx-auto text-center">
-            <img src="img/second-post.png" alt="second post" class="img-fluid" />
-          </div>
-          <div class="col-8 blog-posts__item-meta">
-            <p class="lead text-warning">
-              Feb 20, 2016
-            </p>
-            <h2>
-              A story that lasted too long
-            </h2>
-          </div>
-        </div>
-        <p class="blog-posts__item-text p-2">
-          We hate when the services we use and love are shut down. It happens too often, and our content tends to
-          either get lost
-          completely or we are forced to tediously transition it to yet another service of questionable longevity.</p>
-      </article>
-    </section>
-  </main>
   <aside class="blog__sidebar">
     <section class="blog-author">
       <img src="img/mark.png" alt="Mark Essien" class="blog-author__img" />
@@ -138,7 +86,7 @@
           </div>
         </div>
       </div>
-      <div class="container mx-auto p-3 mt-4" style="background-color: #ccc;">
+      <div class="container mx-auto p-3 mt-4 d-none d-sm-block" style="background-color: #ccc;">
         <form>
           <input type="text" name="email-address" class="form-control email-address" />
           <button type="submit" class="btn btn-secondary btn-lg mt-2">Subscribe</button>
@@ -146,6 +94,75 @@
       </div>
     </section>
   </aside>
+  <main class="blog__content">
+    <section class="blog__sidebar__toggle mb-5 p-4">
+      ☰
+    </section> <!-- toggle menu on mobile -->
+    <section class="blog-posts mt-5">
+      <article class="blog-posts__item container m-2">
+        <div class="row">
+          <div class="col-4 blog-posts__item-photo mx-auto text-center">
+            <img src="img/first-post.png" alt="first post" class="img-fluid" />
+          </div>
+          <div class="col-8 blog-posts__item-meta">
+            <p class="lead text-warning">
+              JAN 9, 2017
+            </p>
+            <h2>The Moment of Awe</h2>
+          </div>
+        </div>
+        <p class="blog-posts__item-text p-2">
+          The reasoning behind one of the biggest disasters of the last century. It
+          helps you curate ideas and includes everything you need to develop and publish your thoughts to the world.
+        </p>
+      </article>
+      <article class="blog-posts__item container m-2">
+        <div class="row">
+          <div class="col-4 blog-posts__item-photo mx-auto text-center">
+            <img src="img/second-post.png" alt="second post" class="img-fluid" />
+          </div>
+          <div class="col-8 blog-posts__item-meta">
+            <p class="lead text-warning">
+              Feb 20, 2016
+            </p>
+            <h2>
+              A story that lasted too long
+            </h2>
+          </div>
+        </div>
+        <p class="blog-posts__item-text p-2">
+          We hate when the services we use and love are shut down. It happens too often, and our content tends to
+          either get lost
+          completely or we are forced to tediously transition it to yet another service of questionable longevity.</p>
+      </article>
+    </section>
+    <div class="modal fade" class="blog__subscribe" id="blog__subscribe" tabindex="-1" role="dialog" aria-labelledby="blog__subscribe__title"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" class="blog__subscribe__title" id="blog__subscribe__title">Subscribe to My Blog</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="mx-auto text-center">
+              <p class="lead">
+                Welcome to my blog. This text here will be some intro text
+                that kind of gives context to what I write and so on. People diving in will have a clearer idea
+                of the particular person they are meeting.
+              </p>
+              <form class="form-inline mx-auto d-block">
+                <input type="text" name="email-address" class="form-control email-address" />
+                <button type="submit" class="btn btn-secondary btn-lg mt-2 mt-sm-0">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/index.js"></script>

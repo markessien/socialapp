@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+body {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .blog__sidebar {
+  display: none;
   text-align: center;
 }
 
-.blog__subscribe {
-  width: 90%;
-}
-
-.blog__subscribe .close-btn {
-  border: 1px solid #333;
-  cursor: pointer;
-  float: right;
-  font-size: 30px;
-  font-weight: 900;
-  margin-top: -5%;
+.blog__sidebar__toggle {
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .blog-author {
@@ -27,9 +26,10 @@
   height: 20px;
 }
 
-/* Desktop styles */
+/* PC / Desktop styles */
 @media (min-width: 768px) {
   .blog__sidebar {
+    display: block;
     border-right: 1px solid #333;
     height: 100%;
     width: 250px;
@@ -39,6 +39,10 @@
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
+  }
+
+  .blog__sidebar__toggle {
+    display: none;
   }
 
   .blog__content {
