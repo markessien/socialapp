@@ -1,113 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-body {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-.my-5-container{
-  background-color:white; 
-  height: auto;
-}
-
-.post-title-block {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.post-img {
-  width: 10%;
-}
-.date-title {
-  width: 85%;
-  text-transform: capitalize;
-  font-size: medium;
-}
-
-.post-title {
-  text-transform: capitalize;
-}
-.author{
-	padding: 30px;
-  height: auto;
-  width: 20%;
-  background-color:#eaf6ff;
-}
-.header{
-  margin-right: 25px;
-  margin-top: 12px;
-  margin-bottom: 18px;
-	border-radius: 3px;
-	padding: 70px;
-  background-color:#eaf6ff;
-  
-
-}
-.subscription_area{
-	float: right;
-	
-}
-.buttons{
-	margin-bottom: 80px;
-	margin-left: 3px;
-	padding-bottom:50px;
-}
-
-
-
-
-
-.mark-name{
-	font-family: serif;
-	font-size: 45px;
-	margin:20px;
-  text-align: center;
-
-}
-.post-title{
-		text-align: center;
-		margin :30px;
-		color:black;
-		font-family: serif;
-}
-.post{
-	font-size: 20px;
-	font-family: sans-serif;
-}
-.first_p{
-	font-size: 20px;
-	font-family: serif;
-	color :  black; 
-	padding: 10px;
-}
-
-.social-icon{
-	float:middle;
-	padding: 20px;
-}
-.lead{
-	color: red;
-}
-.list1{
-  margin-top: 60px;
-  color:black;
-  list-style: none;
+.blog__sidebar {
   text-align: center;
 }
 
-.list, li{
-  margin-top: 30px;
+.blog__subscribe {
+  width: 90%;
 }
 
-
-.side-content{
-  padding:30px;
+.blog__subscribe .close-btn {
+  border: 1px solid #333;
+  cursor: pointer;
+  float: right;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: -5%;
 }
 
-.blog-posts{
-  margin: 40px 30px !important;
+.blog-author {
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.author-bio{
-  text-align: center;
+.social-link__href svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .blog__sidebar {
+    border-right: 1px solid #333;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .blog__content {
+    margin-left: 250px; /* equals `.blog__sidebar` width */
+    padding: 0 10px;
+  }
 }
