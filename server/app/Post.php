@@ -12,7 +12,7 @@ class Post extends Model
      * @var array
      */
     protected $fillable = [
-        'category', 'content', 'sharing_permission',
+        'category', 'body', 'sharing_permission',
     ];
 
     public function user(){
