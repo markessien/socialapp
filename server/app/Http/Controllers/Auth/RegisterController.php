@@ -42,11 +42,18 @@ class RegisterController extends Controller
         $this->middleware('guest');
     }
 
+<<<<<<< HEAD
 
 
     public function register(Request $request)
     {
         // EMPTY 
+=======
+
+    public function register(Request $request)
+    {
+        
+>>>>>>> d661a83d75c45b7ee70f41ac408a3defba279137
     }
 }
 
