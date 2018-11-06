@@ -45,42 +45,7 @@ class RegisterController extends Controller
 
     public function register(Request $request)
     {
-        $data = $request->all();
-        $userData = new User();
-
-        $validator = Validator::make($data, [
-            'name' => 'required|string|max:255|unique:users',
-            'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:6|confirmed',
-            'gender' => 'required|string',
-            'age' => 'required',
-            'country' => 'required|string',
-            'state' => 'required|string',
-            'bio' => 'required|string',
-        ]);
-
-        $userData->name = $data['name'];
-        $userData->email = $data['email'];
-        $userData->password = Hash::make($data['password']);
-        $userData->gender = $data['gender'];
-        $userData->age = $data['age'];
-        $userData->country = $data['country'];
-        $userData->state = $data['state'];
-        $userData->bio = $data['bio'];
-
-        if($validator->passes()){
-
-            //send a Welcome Email to the user ---> NOT implemented yet!
-
-            $userData->save();
-
-            //take me to login page
-            return redirect(route('login'));
-        }else{
-
-            //return $validator->messages();
-            return redirect(route('register'))->withErrors($validator)->withInput();
-        }
+        
     }
 }
 
