@@ -28,11 +28,11 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function friend(){
+    public function friends(){
         return $this->hasMany(Friend::class);
     }
 
-    public function post(){
+    public function posts(){
         return $this->hasMany(Post::class);
     }
 
