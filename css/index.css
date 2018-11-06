@@ -1,1 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.blog__sidebar {
+  text-align: center;
+}
+
+.blog__subscribe {
+  width: 90%;
+}
+
+.blog__subscribe .close-btn {
+  border: 1px solid #333;
+  cursor: pointer;
+  float: right;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: -5%;
+}
+
+.blog-author {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.social-link__href svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .blog__sidebar {
+    border-right: 1px solid #333;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .blog__content {
+    margin-left: 250px; /* equals `.blog__sidebar` width */
+    padding: 0 10px;
+  }
+}
