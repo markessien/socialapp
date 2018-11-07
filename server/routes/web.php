@@ -11,7 +11,7 @@
 */
 //Landing Page (Home Page)
 Route::get('/', 'HomepageController@index')->name('homepage');
-//*****POST ROUTE DETAILS*******//
+
 //Post Comment
 Route::post('/post-comment', function(){
 	return view('/post-comment');
@@ -20,7 +20,7 @@ Route::post('/post-comment', function(){
 Route::post('/Upload', function(){
 	return view('/upload');
 });
-//*****USER ROUTE DETAILS*****//
+
 //Delete User Account
 Route::delete('/delete-user-account', function(){
 	return view('/delete-user-account');
@@ -29,16 +29,12 @@ Route::delete('/delete-user-account', function(){
 Route::put('/update-user-profile', function(){
 	return view('/update-user-profile');
 });
+
 //User Profile
 Route::get('/User-profile', function(){
 	return view('/user-profile');
 });
+
 //Controls Login, Register, Reset password user
 Route::auth();
 
-Route::get('/register', 'RegistrationController@create');
-Route::post('register', 'RegistrationController@store');
- 
-Route::get('/login', 'SessionsController@create');
-Route::post('/login', 'SessionsController@store');
-Route::get('/logout', 'SessionsController@destroy');
