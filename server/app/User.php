@@ -39,4 +39,8 @@ class User extends Authenticatable
     public function media(){
         return $this->belongsTo(User::class);
     }
+    public function setPasswordAttribute($password)
+    {
+        $this->attributes['password'] = bcrypt($password);
+    }
 }
