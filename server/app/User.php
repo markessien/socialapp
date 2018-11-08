@@ -40,5 +40,12 @@ class User extends Authenticatable implements MustVerifyEmail
     public function media(){
         return $this->belongsTo(User::class);
     }
+<<<<<<< HEAD
 
+=======
+    public function setPasswordAttribute($password)
+    {
+        $this->attributes['password'] = bcrypt($password);
+    }
+>>>>>>> e7055bdc5248f16be6fa82f070a9ee264b81105c
 }

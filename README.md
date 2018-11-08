@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Social App
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/HNG-StrikeWork-brightgreen.svg)
@@ -183,3 +184,4 @@ The project is ready to be served in your local machine. To do this run php arti
 To alternatively serve in through another port run php artisan serve --port=<port no> . For instance if port 8000 is occupied you can run it on 8080 like this ``php artisan serve --port=8080`` .
 
 Visit ``127.0.0.1:8000`` or ``127.0.0.1:<port no>`` to see your project up and running
+
