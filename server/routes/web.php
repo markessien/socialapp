@@ -52,4 +52,8 @@ Route::get('/User-profile', function(){
 
 Auth::routes();
 
+/* Post Routes */
 
+//Get User Posts
+
+Route::get('/{user}/posts', 'PostController@index');
