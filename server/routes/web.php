@@ -44,13 +44,13 @@ Route::put('/update-user-profile', function(){
 //User Profile
 Route::get('/User-profile', function(){
 	return view('/user-profile');
-});
+})->middleware('verified');
 
 //Controls Login, Register, Reset password user
 
 //Route::auth();
 
-Auth::routes();
+Auth::routes(['verify'=>true]);
 
 /* Post Routes */
 
