@@ -14,7 +14,9 @@
 //Landing Page (Home Page)
 Route::get('/', 'HomepageController@index')->name('homepage');
 
-
+Route::get('/social', function(){
+	return view('/timbu-social');
+})->name('timbu-social');
 //*****POST ROUTE DETAILS*******//
 
 //Post Comment
@@ -45,5 +47,9 @@ Route::get('/User-profile', function(){
 });
 
 //Controls Login, Register, Reset password user
+
+//Route::auth();
+
 Auth::routes();
+
 
