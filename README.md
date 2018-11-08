@@ -145,7 +145,7 @@ Introduction
 Laravel uses a different view rendering technique called blading.<br>
 Blade is the simple, yet powerful templating engine provided with Laravel. Unlike other popular PHP templating engines, Blade does not restrict you from using plain PHP code in your views. In fact, all Blade views are compiled into plain PHP code and cached until they are modified, meaning Blade adds essentially zero overhead to your application. Blade view files use the  ``.blade.php`` file extension and are typically stored in the ``resources/views`` directory.
 
--Stage 1:Setting up project on local machine
+* Stage 1: Setting up project on local machine
 
 1.  Clone the socialapp project to your local machine preferably in you www(windows) and www/html(linux) folder.
 
@@ -164,7 +164,7 @@ Blade is the simple, yet powerful templating engine provided with Laravel. Unlik
  ``php artisan key:generate``
 The key will automatically be updated in your environment file in your editor. If it doesn’t you can always copy and paste.
 
--Stage 2:Connecting your database
+* Stage 2: Connecting your database
 
 1.  Go to your ``localhost/phpmyadmin`` , login and create a new database
 
@@ -176,7 +176,7 @@ The key will automatically be updated in your environment file in your editor. I
 
 5. Or you can run step 3& 4 together as php artisan migrate --seed to create the appropriate tables and seed them in your local database.
 
--Stage 3: Food is ready
+* Stage 3: Food is ready
 
 The project is ready to be served in your local machine. To do this run php artisan serve to serve the project at ``localhost:8080`` or ``127.0.0.1:8000`` .
 
