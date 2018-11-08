@@ -1,0 +1,37 @@
+$blue-bg : #00AEFF;
+$blue-text : #00AEFF;
+$deep-blue-bg:#049be2;
+$mb-0 : 0;
+p{
+    margin-bottom:$mb-0;
+}
+.navbar{
+  background-color: $blue-bg;
+  height: 60px;
+}
+.navbar-nav{
+  .nav-item{
+    padding-left: 2%;
+    padding-right: 2%;
+    .nav-link{
+      img{
+        width: 18px;
+        height: 18px;
+      }
+      p{
+        color:white!important;
+        font-size: 16px;
+        margin-left: 4px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+.nav-right{
+  display: flex;
+  li{
+    border-left: 1px solid white;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

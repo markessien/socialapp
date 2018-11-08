@@ -1,0 +1,37 @@
+p {
+  margin-bottom: 0;
+}
+
+.navbar {
+  background-color: #00AEFF;
+  height: 60px;
+}
+
+.navbar-nav .nav-item {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.navbar-nav .nav-item .nav-link img {
+  width: 18px;
+  height: 18px;
+}
+
+.navbar-nav .nav-item .nav-link p {
+  color: white !important;
+  font-size: 16px;
+  margin-left: 4px;
+  margin-bottom: 0;
+}
+
+.nav-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-right li {
+  border-left: 1px solid white;
+  padding-left: 5%;
+  padding-right: 5%;
+}
