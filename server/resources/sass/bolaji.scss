@@ -1,0 +1,138 @@
+$blue-bg: #00aeff;
+$blue-text: #00aeff;
+$deep-blue-bg: #049be2;
+$mb-0: 0;
+p {
+    margin-bottom: $mb-0;
+}
+.navbar {
+    background-color: $blue-bg;
+    height: 60px;
+}
+.navbar-nav {
+    .nav-item {
+        padding-left: 2%;
+        padding-right: 2%;
+        .nav-link {
+            img {
+                width: 18px;
+                height: 18px;
+            }
+            p {
+                color: white !important;
+                font-size: 16px;
+                margin-left: 4px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+.nav-right {
+    display: flex;
+    li {
+        border-left: 1px solid white;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+$color_1: #fff;
+$color_2: #d9d9d9;
+$color_3: #049be2;
+$color_4: #000000;
+$color_5: #ffffff;
+
+/*---------------------------------------
+  FOOTER
+-----------------------------------------*/
+footer {
+    background: #049be2;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    h2 {
+        color: $color_5;
+        text-transform: uppercase;
+    }
+    h3 {
+        color: $color_3;
+    }
+    p {
+        color: $color_4;
+    }
+    span {
+        color: $color_4;
+    }
+}
+.footer-link {
+    margin: 0;
+    padding: 0;
+    li {
+        display: block;
+        list-style: none;
+        margin: 5px 10px 5px 0;
+        a {
+            color: $color_4;
+            &:hover {
+                color: $color_5;
+                text-decoration-style: dotted;
+            }
+        }
+    }
+}
+.copyright-text {
+    p {
+        font-size: 15px;
+    }
+}
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 1em;
+    padding-top: 0.5em;
+    .social-icon {
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+.footer-info {
+    p {
+        margin-right: 4em;
+    }
+}
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    li {
+        display: inline-block;
+        list-style: none;
+        a {
+            border-radius: 100px;
+            color: $color_1;
+            font-size: 15px;
+            text-decoration: none;
+            position: relative;
+            margin: 5px 10px;
+            &:hover {
+                color: $color_2;
+            }
+        }
+    }
+}
+
+$color_1: #252525;
+$color_2: #575757;
+$color_3: #ffffff;
+
+@media screen and (max-width: 767px) {
+    footer {
+        text-align: center;
+    }
+    .footer-info {
+        p {
+            margin-right: 0;
+        }
+    }
+    .footer-bottom {
+        margin-right: 0;
+    }
+}

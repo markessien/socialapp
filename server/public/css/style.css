@@ -3,7 +3,7 @@ p {
 }
 
 .navbar {
-  background-color: #00AEFF;
+  background-color: #00aeff;
   height: 60px;
 }
 
@@ -35,3 +35,110 @@ p {
   padding-left: 5%;
   padding-right: 5%;
 }
+
+/*---------------------------------------
+  FOOTER
+-----------------------------------------*/
+
+footer {
+  background: #049be2;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+footer h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+footer h3 {
+  color: #049be2;
+}
+
+footer p {
+  color: #000000;
+}
+
+footer span {
+  color: #000000;
+}
+
+.footer-link {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-link li {
+  display: block;
+  list-style: none;
+  margin: 5px 10px 5px 0;
+}
+
+.footer-link li a {
+  color: #000000;
+}
+
+.footer-link li a:hover {
+  color: #ffffff;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+}
+
+.copyright-text p {
+  font-size: 15px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 1em;
+  padding-top: 0.5em;
+}
+
+.footer-bottom .social-icon {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-info p {
+  margin-right: 4em;
+}
+
+.social-icon {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icon li {
+  display: inline-block;
+  list-style: none;
+}
+
+.social-icon li a {
+  border-radius: 100px;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  position: relative;
+  margin: 5px 10px;
+}
+
+.social-icon li a:hover {
+  color: #d9d9d9;
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
+
+  .footer-info p {
+    margin-right: 0;
+  }
+
+  .footer-bottom {
+    margin-right: 0;
+  }
+}
+

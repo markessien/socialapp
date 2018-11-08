@@ -8,7 +8,6 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Styles -->
     <style>
@@ -64,27 +63,23 @@
     }
 </style>
 </head>
-@extends('layouts.header')
-<body>
+@extends('layouts.dashboard-app')
 
 @section('content')
 <div class="content">
     <div class="title m-b-md">
-        Timbu Social
+        Bolaji
     </div>
-    <div class="content">
-        <div class="m-b-md">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam atque dolor maxime laborum aliquam nesciunt, quia dignissimos labore provident esse. Dignissimos repellat tenetur quasi molestiae perferendis, soluta modi consequuntur. Non.</p>
+
+    <div class="links">
+        <a href="https://laravel.com/docs">Documentation</a>
+        <a href="https://laracasts.com">Laracasts</a>
+        <a href="https://laravel-news.com">News</a>
+        <a href="https://nova.laravel.com">Nova</a>
+        <a href="https://forge.laravel.com">Forge</a>
+        <a href="https://github.com/laravel/laravel">GitHub</a>
+    </div>
 </div>
-</div>
-
-
-</div>
-
-@include('layouts.footer')
-
-</body>
-</html>
 
 
 @endsection
