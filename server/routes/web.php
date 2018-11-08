@@ -47,4 +47,9 @@ Route::get('/User-profile', function(){
 });
 
 //Controls Login, Register, Reset password user
-Route::auth();
+
+//Route::auth();
+
+Auth::routes();
+
+
