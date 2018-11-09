@@ -8,7 +8,6 @@
                 <div class="col-md-3 col-sm-12">
                     <div class="footer-thumb footer-info">
                         <h2><img src="images/logo.svg" alt="" style="width:124px;"></h2>
-                        <br />
                         <ul class="footer-link">
                             <li><a href="#" class=""><img src="images/rooms.svg" alt="">&nbsp;Accomodations</a></li>
                             <li><a href="#" class=""><img src="images/eat.svg" alt="">&nbsp;Restaurants</a></li>
@@ -20,7 +19,6 @@
                 <div class="col-md-3 col-sm-12">
                     <div class="footer-thumb">
                         <h2>About Us</h2>
-                        <br />
                         <ul class="footer-link">
                             <li><a href="#" class="">Help</a></li>
                             <li><a href="#" class="">Contact Us</a></li>
@@ -34,7 +32,6 @@
                 <div class="col-md-3 col-sm-12">
                     <div class="footer-thumb">
                         <h2>Locations</h2>
-                        <br />
                         <ul class="footer-link">
                             <li><a href="#" class="">Africa</a></li>
                             <li><a href="#" class="">Asia</a></li>
@@ -49,7 +46,6 @@
                 <div class="col-md-3 col-sm-12">
                     <div class="footer-thumb">
                         <h2>Privacy & Terms</h2>
-                        <br />
                         <ul class="footer-link">
                             <li><a href="#" class="">Privacy Policy</a></li>
                             <li><a href="#" class="">Terms & Conditions</a></li>
@@ -72,7 +68,7 @@
                                     <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                                    <a href="https://twitter.com/gotimbu"><i class="fab fa-twitter fa-2x"></i></a>
                                 </li>
                                 <li>
                                     <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
