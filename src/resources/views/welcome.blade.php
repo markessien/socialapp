@@ -3,9 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Timbu Social</title>
-    <meta name="description" Content="" />
+        <meta name="description" Content="" />
 		<meta name="keywords" Content="" />
 		<!-- Twitter card -->
         <meta name="twitter:card" content="summary_large_image" />
@@ -22,17 +23,6 @@
         <meta property="og:description" content="" />
         <meta property="og:image" content="" />
 
-		<!-- Google Knowledge Graph card -->
-        <script type='application/ld+json'>
-            {
-              "@context": "http://www.schema.org",
-              "@type": "",
-              "name": "",
-              "url": "",
-              "logo": "",
-              "description": ""
-            }
-		</script>
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="images/logo.png"/>
         <!-- Favicon -->
