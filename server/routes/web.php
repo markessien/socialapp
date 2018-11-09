@@ -47,3 +47,13 @@ Route::get('/User-profile', function(){
 //Controls Login, Register, Reset password user
 Route::auth();
 
+/*
+	The following route is responsible for follow/unfollow features
+
+*/
+Route::group(['prefix' => 'user'], function () {
+	Route::get('/follow/id', 'FollowController@create')->name('user.follow');
+});
+
+//end of follow/unfollow
+
