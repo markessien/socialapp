@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Timbu Social</title>
+    <meta name="description" Content="" />
+		<meta name="keywords" Content="" />
+		<!-- Twitter card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="" />
+        <meta name="twitter:creator" content="" />
+        <meta name="twitter:title" content="" />
+		<meta name="twitter:description" content="" />
+		<meta name="twitter:image" content="" />
+		<!-- Open graph -->
+        <meta property="og:site_name" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+
+		<!-- Google Knowledge Graph card -->
+        <script type='application/ld+json'>
+            {
+              "@context": "http://www.schema.org",
+              "@type": "",
+              "name": "",
+              "url": "",
+              "logo": "",
+              "description": ""
+            }
+		</script>
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/logo.png"/>
+        <!-- Favicon -->
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
