@@ -152,7 +152,7 @@ Blade is the simple, yet powerful templating engine provided with Laravel. Unlik
 
 2. Enter into the project directory my running the cd command
  ``cd socialapp``
- ``cd server``
+ ``cd src``
 
 3. Run the composer command to download and install are required laravel dependencies.
  ``composer install``
