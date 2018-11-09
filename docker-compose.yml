@@ -1,0 +1,17 @@
+version: '2'
+services:
+    mysql:
+        image: mysql:5.7
+        env_file:
+            - ./mysql.env
+        volumes:
+            - ./storage/mysql:/var/lib/mysql
+    web:
+        build: ./src
+        container_name: web
+        ports:
+            - 8000:80
+        volumes:
+            - ./src:/var/www
+            - ./storage/app:/var/www/storage/app
+            - ./storage/logs:/var/www/storage/logs
