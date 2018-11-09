@@ -1,240 +1,145 @@
 p {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .navbar {
-  background-color: #00AEFF;
-  height: 60px;
-  padding-left: 70px !important;
-  padding-right: 70px !important;
+    background-color: #00aeff;
+    height: 60px;
 }
 
 .navbar-nav .nav-item {
-  padding-left: 2%;
-  padding-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .navbar-nav .nav-item .nav-link img {
-  width: 18px;
-  height: 18px;
+    width: 18px;
+    height: 18px;
 }
 
 .navbar-nav .nav-item .nav-link p {
-  color: white !important;
-  font-size: 16px;
-  margin-left: 4px;
-  margin-bottom: 0;
+    color: white !important;
+    font-size: 16px;
+    margin-left: 4px;
+    margin-bottom: 0;
 }
 
 .nav-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .nav-right li {
-  border-left: 1px solid white;
-  padding-left: 5%;
-  padding-right: 5%;
+    border-left: 1px solid white;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.jumbotron {
-  height: 136px;
-  border-radius: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+/*---------------------------------------
+  FOOTER
+-----------------------------------------*/
+
+footer {
+    background: #049be2;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
-.jumbotron .input-group,
-.jumbotron input {
-  height: 50px;
+footer h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 18px;
 }
 
-.jumbotron .extras .input-group-text {
-  border-right: none;
-  background-color: white;
+footer h3 {
+    color: #049be2;
 }
 
-.jumbotron input::-webkit-input-placeholder {
-  color: #BDBDBD;
+footer p {
+    color: #000000;
 }
 
-.jumbotron input::-ms-input-placeholder {
-  color: #BDBDBD;
+footer span {
+    color: #000000;
 }
 
-.jumbotron input::placeholder {
-  color: #BDBDBD;
+.footer-link {
+    margin: 0;
+    padding: 0;
 }
 
-.jumbotron input:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+.footer-link li {
+    display: block;
+    list-style: none;
+    margin: 5px 10px 5px 0;
 }
 
-.jumbotron button {
-  width: 150px;
-  height: 50px;
-  background-color: #00AEFF;
-  border: 1px solid #00AEFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.footer-link li a {
+    color: #000000;
 }
 
-.jumbotron button p {
-  font-size: 18px;
-  text-transform: uppercase;
-  color: white;
+.footer-link li a:hover {
+    color: #ffffff;
+    -webkit-text-decoration-style: dotted;
+    text-decoration-style: dotted;
 }
 
-.jumbotron button:hover {
-  background-color: #049be2;
-  border: 1px solid #049be2;
+.copyright-text p {
+    font-size: 15px;
 }
 
-.card {
-  -webkit-box-shadow: 0px 0px 3px 2px rgba(79, 79, 79, 0.12);
-          box-shadow: 0px 0px 3px 2px rgba(79, 79, 79, 0.12);
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 1em;
+    padding-top: 0.5em;
 }
 
-.profile-card {
-  width: 100%;
-  height: 13.5rem;
+.footer-bottom .social-icon {
+    display: inline-block;
+    vertical-align: top;
 }
 
-.profile-card .card-header {
-  background-color: white;
-  font-size: 18px;
-  font-weight: 600;
+.footer-info p {
+    margin-right: 4em;
 }
 
-.popular-card {
-  width: 100%;
-  height: 70rem;
-  margin: 15% 0;
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
 }
 
-.popular-card .card-header {
-  background-color: white;
-  font-size: 18px;
-  font-weight: 600;
+.social-icon li {
+    display: inline-block;
+    list-style: none;
 }
 
-.post-card {
-  height: 45.6875rem;
-  margin: 7% 0;
+.social-icon li a {
+    border-radius: 100px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+    margin: 5px 10px;
 }
 
-.post-card .card-header {
-  background-color: white;
-  height: 85px;
-  border-bottom: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.social-icon li a:hover {
+    color: #d9d9d9;
 }
 
-.post-card .card-footer {
-  background-color: white;
-  height: 50px;
-  border-bottom: none;
+@media screen and (max-width: 767px) {
+    footer {
+        text-align: center;
+    }
+
+    .footer-info p {
+        margin-right: 0;
+    }
+
+    .footer-bottom {
+        margin-right: 0;
+    }
 }
-
-.category-col {
-  width: 181px;
-  height: 120px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.category-col img {
-  width: 40px;
-  height: 40px;
-}
-
-.category-col p {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.btn:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.edit-btn {
-  color: #00AEFF;
-}
-
-.btn-blue {
-  background-color: #00AEFF;
-  color: white;
-}
-
-.list-group-item {
-  border-bottom: none;
-  border-top: none;
-}
-
-.dashboard-row {
-  padding: 0 75px;
-}
-
-.sidebar-col {
-  padding-right: 8%;
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-
-/* Large devices (desktops, less than 1200px) */
-
-/* Large devices (desktops, 992px and up) */
-
-/* Medium devices (tablets, less than 992px) */
-
-/* Medium devices (tablets, 768px and up) */
-
-/* Small devices (landscape phones, 576px and up) */
-
-/* Extra small devices (portrait phones, less than 576px) */
-
-@media (max-width: 575.98px) {
-  .navbar {
-    height: 100%;
-  }
-
-  .jumbotron {
-    height: 100%;
-  }
-}
-
