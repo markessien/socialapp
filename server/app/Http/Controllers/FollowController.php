@@ -32,11 +32,11 @@ class FollowController extends Controller
         $target = request('id'); //target to follow
         // check if the id sent is a number and represent a user in the db
         if(is_numeric($target) && User::find($target)){
-            $loggedUser->follow($target);
+            $loggedUser->toggleFollow($target);
             return array('status' => 0, 'message' => 'success');
         }
 
-        return array('status' => 99, 'message' => 'The target to be followed is incorrect');
+        return array('status' => 99, 'message' => 'An error occurred');
     }
 
     /**

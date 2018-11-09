@@ -53,7 +53,7 @@ Route::get('/User-profile', function(){
 
 */
 Route::group(['prefix' => 'user'], function () {
-	Route::get('/follow/id', 'FollowController@create')->name('user.follow');
+	Route::get('/follow/{id}', 'FollowController@create')->name('user.follow');
 });
 
 //end of follow/unfollow
