@@ -14,7 +14,9 @@
 //Landing Page (Home Page)
 Route::get('/', 'HomepageController@index')->name('homepage');
 
-
+Route::get('/social', function(){
+	return view('/timbu-social');
+})->name('timbu-social');
 //*****POST ROUTE DETAILS*******//
 
 //Post Comment
@@ -45,7 +47,6 @@ Route::get('/User-profile', function(){
 });
 
 //Controls Login, Register, Reset password user
-Route::auth();
 
 /*
 	The following route is responsible for follow/unfollow features
@@ -57,3 +58,12 @@ Route::group(['prefix' => 'user'], function () {
 
 //end of follow/unfollow
 
+//Route::auth();
+
+Auth::routes();
+
+/* Post Routes */
+
+//Get User Posts
+
+Route::get('/{user}/posts', 'PostController@index');
