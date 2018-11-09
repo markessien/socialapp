@@ -72,7 +72,7 @@
                 </div>
             </div>
         </nav>--}}
-        @include('components.dashboard-header')
+        @include('components.main-header')
         <main class="py-4">
             @yield('content')
         </main>
