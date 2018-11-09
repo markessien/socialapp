@@ -10,7 +10,7 @@ This is the Repository for the **Social App Project** :fire: <br>
 
 # Contributor's Guide
 
-HOW TO CONTRIBUTE TO OPEN SOURCE accepts PR's (pull requests) from **newbies**
+**Note:** accepts PR's (pull requests) from **newbies**
 only, this is to help **newbies** get familiar with contribution processes.
 
 Issues can be submitted by anyone, seasoned developers or newbies.
