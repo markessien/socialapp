@@ -58,8 +58,7 @@
                     <div class="footer-bottom">
                         <div class="col-md-6 col-sm-5">
                             <div class="copyright-text">
-                                <p>Copyright &copy;
-                                    <script>document.write(new Date().getFullYear());</script> Timbu Social
+                                <p>Copyright &copy; <span id="year"></span> Timbu Social
                                 </p>
                             </div>
 
