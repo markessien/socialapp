@@ -95,7 +95,7 @@
     }
 </style>
 </head>
-@extends('includes.header')
+@extends('components.header')
 <body>
 
 @section('content')
@@ -117,7 +117,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus repudiandae omn
 
 </div>
 
-@include('includes.footer')
+@include('components.footer')
 
 </body>
 </html>
