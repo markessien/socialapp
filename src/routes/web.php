@@ -12,14 +12,6 @@
 //Landing Page (Home Page)
 Route::get('/', 'HomepageController@index')->name('homepage');
 
-<<<<<<< HEAD
-Route::get('/social', function(){
-	return view('/timbu-social');
-})->name('timbu-social');
-//*****POST ROUTE DETAILS*******//
-
-=======
->>>>>>> e7055bdc5248f16be6fa82f070a9ee264b81105c
 //Post Comment
 Route::post('/post-comment', function(){
 	return view('/post-comment');
