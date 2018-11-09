@@ -47443,8 +47443,3 @@ if (false) {
 
 /***/ })
 /******/ ]);
-
-//Variable to display copyright year in footer
-var getYear = (new Date().getFullYear());
-document.getElementById("year").innerHTML = getYear;
-//end Variable to display copyright year in footer
