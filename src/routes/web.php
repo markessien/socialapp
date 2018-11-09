@@ -13,10 +13,6 @@
 Route::get('/', 'HomepageController@index')->name('homepage');
 
 //Post Comment
-Route::get('/timbu-social', function(){
-	return view('/timbu-social');
-});
-//Post Comment
 Route::post('/post-comment', function(){
 	return view('/post-comment');
 });

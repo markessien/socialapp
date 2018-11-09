@@ -2,15 +2,12 @@ $blue-bg : #00AEFF;
 $blue-text : #00AEFF;
 $deep-blue-bg:#049be2;
 $mb-0 : 0;
-
 p{
     margin-bottom:$mb-0;
 }
 .navbar{
   background-color: $blue-bg;
   height: 60px;
-  padding-left: 70px!important;
-  padding-right: 70px!important;
 }
 .navbar-nav{
   .nav-item{
@@ -36,163 +33,5 @@ p{
     border-left: 1px solid white;
     padding-left: 5%;
     padding-right: 5%;
-  }
-}
-.jumbotron{
-  height: 136px;
-  border-radius: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  .input-group,input{
-    height: 50px;
-  }
-  .extras{
-    .input-group-text{
-      border-right: none;
-      background-color: white;
-    }
-  }
-  input::placeholder{
-    color: #BDBDBD;
-  }
-  input:focus{
-    box-shadow: none;
-  }
-  button{
-    width: 150px;
-    height: 50px;
-    background-color: $blue-bg;
-    border: 1px solid $blue-bg;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    p{
-    font-size: 18px;
-    text-transform: uppercase;
-    color: white;
-    }
-  }
-  button:hover{
-    background-color: $deep-blue-bg;
-    border: 1px solid $deep-blue-bg;
-  }
-}
-.card{
-  box-shadow: 0px 0px 3px 2px rgba(79, 79, 79, 0.12);
-}
-.profile-card{
-  width: 100%;
-  height: 13.5rem;
-  .card-header{
-    background-color: white;
-    font-size: 18px;
-    font-weight: 600;
-  }
-}
-.popular-card{
-  width: 100%;
-  height: 70rem;
-  margin: 15% 0;
-  .card-header{
-    background-color: white;
-    font-size: 18px;
-    font-weight: 600;
-  }
-}
-.post-card{
-  height: 45.6875rem;
-  margin: 7% 0;
-  .card-header{
-    background-color: white;
-    height: 85px;
-    border-bottom: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .card-footer{
-    background-color: white;
-    height: 50px;
-    border-bottom: none;
-  }
-}
-.category-col{
-  width: 181px;
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  // border-right:
-  img{
-    width: 40px;
-    height: 40px;
-  }
-  p{
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-  }
-}
-.btn:focus{
-  box-shadow: none;
-}
-.edit-btn{
-  color: $blue-text;
-}
-.btn-blue{
-  background-color: $blue-bg;
-  color:white;
-}
-.list-group-item{
-  border-bottom: none;
-  border-top: none;
-}
-.dashboard-row{
-  padding: 0 75px;
-}
-.sidebar-col{
-    padding-right: 8%;
-}
-
-
-
-
-
-
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-}
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .navbar{
-    height: 100%;
-  }
-  .jumbotron{
-    height: 100%;
   }
 }
