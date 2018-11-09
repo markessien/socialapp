@@ -95,7 +95,7 @@
     }
 </style>
 </head>
-@extends('layouts.header')
+@extends('includes.header')
 <body>
 
 @section('content')
@@ -105,14 +105,19 @@
     </div>
     <div class="content">
         <div class="m-b-md">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam atque dolor maxime laborum aliquam nesciunt, quia dignissimos labore provident esse. Dignissimos repellat tenetur quasi molestiae perferendis, soluta modi consequuntur. Non.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam atque dolor maxime laborum aliquam nesciunt, quia dignissimos labore provident esse. Dignissimos repellat tenetur quasi molestiae perferendis, soluta modi consequuntur. Non.
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit blanditiis, non atque aut rem alias voluptatem possimus minima obcaecati. Officia nisi in incidunt qui ipsam commodi, iure harum nesciunt quibusdam.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea tempora quos, saepe, aspernatur impedit in maiores aperiam perferendis dicta sint, perspiciatis blanditiis. Voluptas nesciunt deleniti iure, amet nisi iusto rerum?
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut quo repellendus aliquid magni ex quaerat repellat et odio inventore ducimus ad praesentium optio consequuntur, voluptatem facilis earum quia ipsum quae.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus repudiandae omnis totam iusto vero, fugit odit delectus aliquid at veritatis magnam cumque! Eius dolor dolores laboriosam quas optio, voluptas voluptate!
+    </p>
 </div>
 </div>
 
 
 </div>
 
-@include('layouts.footer')
+@include('includes.footer')
 
 </body>
 </html>

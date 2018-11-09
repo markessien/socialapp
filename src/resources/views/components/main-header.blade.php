@@ -10,19 +10,19 @@
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
         <a class="nav-link d-flex" href="#">
-          <img src="images/rooms.svg" alt="">
+          <img src="images/rooms.svg" alt="Rooms">
           <p>Rooms</p>
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link d-flex" href="#">
-          <img src="images/fly.svg" alt="">
+          <img src="images/fly.svg" alt="Flights">
           <p>Flights</p>
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link d-flex" href="#">
-          <img src="images/eat.svg" alt="">
+          <img src="images/eat.svg" alt="Restaurants">
           <p>Restaurants</p>
         </a>
       </li>
