@@ -211,7 +211,7 @@ p {
 }
 
 .sidebar-col {
-  padding-right: 8%;
+  padding-right: 7%;
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -237,4 +237,3 @@ p {
     height: 100%;
   }
 }
-
