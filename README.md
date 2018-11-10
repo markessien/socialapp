@@ -158,7 +158,7 @@ Blade is the simple, yet powerful templating engine provided with Laravel. Unlik
  ``composer install``
 
 4. Make a copy of the sample environment file (at this point the project should be open in your text editor)
- cp .env.example .env
+ ``cp .env.example .env``
 (you should see the new file added through your editor).
 
 5. Generate you unique APP_KEY 
