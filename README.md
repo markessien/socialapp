@@ -10,7 +10,7 @@ This is the Repository for the **Social App Project** :fire: <br>
 
 # Contributor's Guide
 
-HOW TO CONTRIBUTE TO OPEN SOURCE accepts PR's (pull requests) from **newbies**
+**Note:** accepts PR's (pull requests) from **newbies**
 only, this is to help **newbies** get familiar with contribution processes.
 
 Issues can be submitted by anyone, seasoned developers or newbies.
@@ -158,7 +158,7 @@ Blade is the simple, yet powerful templating engine provided with Laravel. Unlik
  ``composer install``
 
 4. Make a copy of the sample environment file (at this point the project should be open in your text editor)
- cp .env.example .env
+ ``cp .env.example .env``
 (you should see the new file added through your editor).
 
 5. Generate you unique APP_KEY 
@@ -171,7 +171,7 @@ The key will automatically be updated in your environment file in your editor. I
 
 2. Go to your .env file and edit DB_DATABASE , DB_USERNAME and DB_PASSWORD to match the credentials you just created, where DB_USERNAME and DB_PASSWORD are the credentials of your phpmyadmin.
 
-3. Go to your CLI and run php artisan migrate to create the appropriate tables for you in your local database.
+3. Go to your CLI and run ``php artisan migrate`` to create the appropriate tables for you in your local database.
 
 4. Run php artisan db:seed seed the tables for you in your local database.
 
