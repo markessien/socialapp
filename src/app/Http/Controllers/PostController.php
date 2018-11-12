@@ -57,10 +57,26 @@ class PostController extends Controller
      * @param  \App\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function edit(Post $post)
-    {
-        //
-    }
+
+public function edit(Request $request, $id=null){
+    $_title = "Edit Posts";
+    $postDetails = CouponCode::find($id);
+        if($request->isMethod('post')){
+            $data = $request->all();
+            var_dump($data);
+            $post = CouponCode::find($id);
+            $post->category = $data['category'];
+            $post->body = $data['body'];
+            $post->sharing_permission = $data['sharing_permission'];
+            $post->save();
+            return redirect()->action('PostController@view')->with('flash_message_success','success');
+
+        }
+
+    return view('',["_title"=>$_title])->with(compact('postDetails'));
+
+
+}
 
     /**
      * Update the specified resource in storage.
@@ -69,10 +85,10 @@ class PostController extends Controller
      * @param  \App\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Post $post)
-    {
-        //
-    }
+    // public function update(Request $request, Post $post)
+    // {
+    //     //
+    // }
 
     /**
      * Remove the specified resource from storage.
